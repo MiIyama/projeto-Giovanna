@@ -1,0 +1,105 @@
+h4{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h4{
+  font-size: 10rem ;
+}
+:root{
+  --primary-color:hsl(236, 77%, 40%);
+  --hardline:black;
+  --paragraph:hsl(295, 84%, 47%);
+  --brand-beige:hsl(39,100%,97%);
+}
+
+body{
+  color: black;
+  font-size: 1.6rem;
+  text-align: center;
+}
+div h3{
+  color: black;
+  background-color: darkgrey;
+}
+div p{
+  color:black;
+  
+}
+header{
+  width: 37.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 4.1rem;
+}
+h4{
+  font-size: 1.4rem;
+  color: black;
+}
+
+h1{
+  font-size: 5rem;
+  color: rgb(1, 2, 15);
+  background-color: rgb(250, 236, 215);
+  line-height: 130%;
+  border: 1px solid white;
+}
+h1{
+  background: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  top:50%;
+  left: 50%;
+  color: black;
+  background: linear-gradient( to rigth, to left
+    rgb(76, 217, 105),
+     rgb(52, 170, 220),
+     rgb(88, 86, 217),
+     rgb(225, 45, 83),
+     rgb(225, 45, 83),
+     rgb(88, 86, 217),
+     rgb(52, 170, 220),
+     rgb(76, 217, 105));
+  background-size: 400%;
+   -webkit-background-clip: text;
+   background-clip: text;
+   animation-duration: 10s linear infinite;
+}
+button{
+  background: var(--hardline);
+  border-radius: none;
+  margin-bottom: 4rem;
+  margin-bottom: 6rem;
+  height: 6.2rem;
+  width: 20rem;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:1.6rem;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+img{
+  width: auto;
+  height: auto;
+}
+.stats{
+  width: 20rem;
+  height: 47rem;
+  margin-inline: auto;
+  background: var(--brand-beige);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0rem;
+}
+.stat h3{
+  color: black;
+  background-color:white;
+  
+
+  
+}
