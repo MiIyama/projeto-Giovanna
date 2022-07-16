@@ -2,3 +2,4 @@
 
 Bracket Pair Color DLW
 indent-rainbow
+prettier
